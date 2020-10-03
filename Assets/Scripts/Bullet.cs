@@ -8,7 +8,6 @@ public class Bullet : MonoBehaviour
     bool enemyBullet;
     public void Initialize(bool enemyBullet, Vector2 startPos)
     {
-        //herere
         transform.position = startPos;
         this.enemyBullet = enemyBullet;
         gameObject.layer = (enemyBullet) ? LayerMask.NameToLayer("EnemyBullet") : LayerMask.NameToLayer("PlayerBullet");

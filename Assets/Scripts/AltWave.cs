@@ -9,4 +9,5 @@ public class AltWave
     public float timeSpacing;
     public int numberToSpawn;
 
+    public int myInt;
 }
