@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253fb6c8e99ed7343b26d55e7f7a4141, type: 3}
+  m_Name: ViperCircle 1
+  m_EditorClassIdentifier: 
+  enemyType: 1
+  timeSpacing: 1.5
+  numberToSpawn: 5
+  pathObject: {fileID: 4867023226989599653, guid: 90d8e4dd8e2a24f4da73303e4f463644, type: 3}
